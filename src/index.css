@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 850px;
+  --breakpoint-xs: 665px;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #0E0E0E;
+  }
+}
+
+@layer utilities {
+  .bg-graphite {
+    background-color: #0E0E0E;
+  }
+
+  .text-graphite {
+    color: #0E0E0E;
+  }
+
+  .border-graphite {
+    border-color: #0E0E0E;
+  }
+
+  .shadow-3xl {
+    box-shadow: 0px 0px 100px 0px;
+  }
+}
