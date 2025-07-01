@@ -6,7 +6,7 @@ $database = new Database();
 $db = $database->getConnection();
 
 // Admin credentials
-$email = 'admin@ingrecipes.com';
+$email = 'admin@cookiq.com';
 $password = 'admin123';
 $role = 'admin';
 

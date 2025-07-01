@@ -21,9 +21,12 @@ This project is built using
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
-- A modern web browser
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- WAMP/XAMPP (for local development)
 
 ### Installation
 
