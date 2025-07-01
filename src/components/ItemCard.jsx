@@ -46,7 +46,7 @@ function ItemCard({data})
             <div className="w-full mt-[clamp(0.125rem,-0.143rem+1.054vw,1.8rem)]">
                 <ScrollTitle color={"#0e0e0e"} weight={"bold"} classes="text-[clamp(1.1rem,0.876rem+0.881vw,2.5rem)]">{data.strMeal.toUpperCase()}</ScrollTitle>
             </div>
-            <h3 className="text-center text-[clamp(0.7rem,0.572rem+0.503vw,1.5rem)] text-graphite leading-0 mb-[clamp(0.75rem,0.63rem+0.472vw,1.5rem)]">CookIQ</h3>
+            <h3 className="text-center text-[clamp(0.7rem,0.572rem+0.503vw,1.5rem)] text-graphite leading-0 mb-[clamp(0.75rem,0.63rem+0.472vw,1.5rem)]">Ingrecipes</h3>
             <h5 className="pl-[clamp(0.5rem,0.42rem+0.315vw,1rem)] pr-[clamp(0.5rem,0.42rem+0.315vw,1rem)] mb-[clamp(0.25rem,0.165rem+0.333vw,0.78rem)] flex justify-between text-[clamp(0.6rem,0.52rem+0.315vw,1.1rem)] font-bold leading-[clamp(0.75rem,0.63rem+0.472vw,1.5rem)] text-white bg-graphite"><span>MEAL</span><span>INFORMATION</span><span>HERE</span></h5>
             <div className="flex justify-center mb-[clamp(0.25rem,0.21rem+0.157vw,0.5rem)] relative">
                 <img src={`${data.strMealThumb}/medium`} className="w-[clamp(8.75rem,7.35rem+5.505vw,17.5rem)] h-[clamp(8.75rem,7.35rem+5.505vw,17.5rem)] p-[clamp(0.25rem,0.21rem+0.157vw,0.5rem)] border-[clamp(2px,1.68px+0.079vw,4px)] border-graphite" />

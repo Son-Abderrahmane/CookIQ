@@ -107,8 +107,8 @@ function Recipe({ data }) {
                 <div className="flex flex-wrap gap-4 text-gray-400 text-sm mb-2">
                     <span>ORDER #{digits}</span>
                     <span>DATE: {months[index]} / {day} / {year}</span>
-                    <span>CASHIER: CookIQ</span>
-                            </div>
+                    <span>CASHIER: Ingrecipes</span>
+                </div>
                 <div className="mb-4">
                     <h2 className="text-xl font-semibold mb-2 text-white">Ingredients</h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
