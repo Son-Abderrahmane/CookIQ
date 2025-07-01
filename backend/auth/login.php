@@ -39,9 +39,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             
             // Redirect based on role
             if ($user['role'] === 'admin') {
-                echo "<script>window.parent.location.href = 'http://localhost/Ingrecipes/backend/admin/dashboard.php';</script>";
+                echo "<script>window.parent.location.href = 'http://localhost/CookIQ/backend/admin/dashboard.php';</script>";
             } else {
-                echo "<script>window.parent.location.href = 'http://localhost/Ingrecipes/';</script>";
+                echo "<script>window.parent.location.href = 'http://localhost/CookIQ/';</script>";
             }
             exit();
         } else {

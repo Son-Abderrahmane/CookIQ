@@ -87,7 +87,7 @@ function ModernRecipe({ data }) {
                 {/* Back Button */}
                 <motion.div variants={itemVariants} className="mb-8">
                     <Link 
-                        to={`/Ingrecipes/${lastPage || ''}`}
+                        to={`/CookIQ/${lastPage || ''}`}
                         className="inline-flex items-center text-gray-400 hover:text-white transition-colors"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

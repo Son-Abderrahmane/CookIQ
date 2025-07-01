@@ -1,10 +1,10 @@
-# Ingrecipes
+# CookIQ
 
 ## Overview
-**Ingrecipes** is designed to help users find recipes by entering a main ingredient to filter meals or by searching for a meal by name. The goal is to simplify meal planning and cooking by offering personalized recipe suggestions based on available ingredients.
+**CookIQ** is designed to help users find recipes by entering a main ingredient to filter meals or by searching for a meal by name. The goal is to simplify meal planning and cooking by offering personalized recipe recommendations.
 
 ## Live Demo
-Check out the live demo [HERE](https://auilk.github.io/Ingrecipes/)
+Check out the live demo [HERE](https://auilk.github.io/CookIQ/)
 
 ## Features
 - Search recipes by name or main ingredient
@@ -18,12 +18,19 @@ This project is built using
 - [TheMealDB API](https://www.themealdb.com/) (for fetching recipes)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 
-## Installation & Setup
+## Getting Started
 
-### Clone the Repository:
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- A modern web browser
+
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/auilk/Ingrecipes.git
-cd Ingrecipes
+git clone https://github.com/auilk/CookIQ.git
+cd CookIQ
 ```
 
 ### Install Dependencies:
