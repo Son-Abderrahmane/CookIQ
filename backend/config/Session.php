@@ -29,7 +29,7 @@ class Session {
 
     public function requireLogin() {
         if (!$this->isLoggedIn()) {
-            header('Location: /CookIQ/backend/auth/login.php');
+            header('Location: /Ingrecipes/backend/auth/login.php');
             exit();
         }
     }
@@ -37,7 +37,7 @@ class Session {
     public function requireAdmin() {
         $this->requireLogin();
         if (!$this->isAdmin()) {
-            header('Location: /CookIQ/backend/user/home.php');
+            header('Location: /Ingrecipes/backend/user/home.php');
             exit();
         }
     }

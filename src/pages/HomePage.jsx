@@ -30,7 +30,7 @@ function HomePage() {
                     <div className="flex gap-4 justify-center">
                         <button 
                             className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
-                            onClick={() => navigate('/CookIQ/search')}
+                            onClick={() => navigate('/Ingrecipes/search')}
                         >
                             Get Started
                         </button>
@@ -185,7 +185,7 @@ MORE ENJOYABLE:
     };
 
     const handleCardClick = (recipeId) => {
-        navigate('/CookIQ/search');
+        navigate('/Ingrecipes/search');
     };
 
     return (

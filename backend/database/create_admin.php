@@ -6,7 +6,7 @@ try {
     $db = $database->getConnection();
 
     // Admin credentials
-    $admin_email = "admin@cookiq.com";
+    $admin_email = "admin@ingrecipes.com";
     $admin_password = "Admin@123"; // This will be hashed
     $admin_name = "Admin User";
 

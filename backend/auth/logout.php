@@ -8,6 +8,6 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to login page
-header('Location: http://localhost/CookIQ/backend/auth/login.php');
+header('Location: http://localhost/Ingrecipes/backend/auth/login.php');
 exit();
 ?> 

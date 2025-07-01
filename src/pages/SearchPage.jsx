@@ -14,7 +14,7 @@ function SearchPage()
 
     useEffect(() => 
     {
-        SetLastPage("CookIQ/search");
+        SetLastPage("Ingrecipes/search");
 
         const fetchSuggestions = async () => {
             try {

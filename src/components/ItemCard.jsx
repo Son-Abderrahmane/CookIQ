@@ -54,7 +54,7 @@ function ItemCard({data})
             </div>
             <h5 className="pl-[clamp(0.5rem,0.42rem+0.315vw,1rem)] pr-[clamp(0.5rem,0.42rem+0.315vw,1rem)] mb-[clamp(0.25rem,0.165rem+0.333vw,0.78rem)] flex justify-between text-[clamp(0.6rem,0.52rem+0.315vw,1.1rem)] font-bold leading-[clamp(0.75rem,0.63rem+0.472vw,1.5rem)] text-white bg-graphite"><span>ENJOY</span><span>YOUR</span><span>MEAL</span></h5>
             <div className="flex justify-center relative mb-3">
-                <Link to="/CookIQ/recipe" onClick={HandleClick}>
+                <Link to="/Ingrecipes/recipe" onClick={HandleClick}>
                     <svg viewBox="0 0 183 130" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-[clamp(6.25rem,5.25rem+3.932vw,12.5rem)] h-[clamp(2.5rem,2.1rem+1.573vw,5rem)]">
                         <rect x="10" y="10" width="6" height="110" fill="#0e0e0e"/>
                         <rect x="18" y="10" width="2" height="110" fill="#0e0e0e"/>
