@@ -9,12 +9,12 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     // Create database if it doesn't exist
-    $sql = "CREATE DATABASE IF NOT EXISTS ingrecipes";
+    $sql = "CREATE DATABASE IF NOT EXISTS cookiq";
     $conn->exec($sql);
     echo "Database created successfully<br>";
     
     // Select the database
-    $conn->exec("USE ingrecipes");
+    $conn->exec("USE cookiq");
     
     echo "Database setup completed. Now running table creation...<br>";
     

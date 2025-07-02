@@ -1,7 +1,7 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "ingrecipes";
+    private $db_name = "cookiq";
     private $username = "root";
     private $password = "";
     public $conn;

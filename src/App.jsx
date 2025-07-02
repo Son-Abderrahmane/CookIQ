@@ -18,20 +18,20 @@ function App()
       <BrowserRouter>
         <NavBarContext.Provider value={true}>
           <NavBar>
-            <NavLink to={"/Ingrecipes"} position={"start"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={LogoIcon}></NavLink>
-            <NavLink to={"/Ingrecipes/search"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={SearchIcon}></NavLink>
-            <NavLink to={"/Ingrecipes/favourites"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={FavouriteIcon}></NavLink>
-            <NavLink to={"/Ingrecipes/contact"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={AboutIcon}></NavLink>
-            <NavLink to={"http://localhost/Ingrecipes/backend/auth/login.php"} position={"end"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} text="LOGIN" external={true}></NavLink>
+            <NavLink to={"/CookIQ"} position={"start"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={LogoIcon}></NavLink>
+            <NavLink to={"/CookIQ/search"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={SearchIcon}></NavLink>
+            <NavLink to={"/CookIQ/favourites"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={FavouriteIcon}></NavLink>
+            <NavLink to={"/CookIQ/contact"} position={"center"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} iconPath={AboutIcon}></NavLink>
+            <NavLink to={"http://localhost/CookIQ/backend/auth/login.php"} position={"end"} size={"clamp(1.3rem, 0.1rem + 4.518vw, 2.5rem)"} text="LOGIN" external={true}></NavLink>
           </NavBar>
         </NavBarContext.Provider>
 
         <Routes>
-          <Route path="/Ingrecipes" element={<HomePage></HomePage>}></Route>
-          <Route path="/Ingrecipes/search" element={<SearchPage></SearchPage>}></Route>
-          <Route path="/Ingrecipes/favourites" element={<FavouritesPage></FavouritesPage>}></Route>
-          <Route path="/Ingrecipes/recipe" element={<RecipePage></RecipePage>}></Route>
-          <Route path="/Ingrecipes/contact" element={<ContactPage></ContactPage>}></Route>
+          <Route path="/CookIQ" element={<HomePage></HomePage>}></Route>
+          <Route path="/CookIQ/search" element={<SearchPage></SearchPage>}></Route>
+          <Route path="/CookIQ/favourites" element={<FavouritesPage></FavouritesPage>}></Route>
+          <Route path="/CookIQ/recipe" element={<RecipePage></RecipePage>}></Route>
+          <Route path="/CookIQ/contact" element={<ContactPage></ContactPage>}></Route>
         </Routes>
       </BrowserRouter>
     </>

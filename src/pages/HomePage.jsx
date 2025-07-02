@@ -21,7 +21,7 @@ function HomePage() {
                 <div className="relative z-10 text-center px-4">
                     <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tight">
                         <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-                            Ingrecipes
+                            CookIQ
                         </span>
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-8">
@@ -30,7 +30,7 @@ function HomePage() {
                     <div className="flex gap-4 justify-center">
                         <button 
                             className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
-                            onClick={() => navigate('/Ingrecipes/search')}
+                            onClick={() => navigate('/CookIQ/search')}
                         >
                             Get Started
                         </button>
@@ -114,7 +114,7 @@ const FeaturesCard = () => {
 
     const fullText = `FEATURES OVERVIEW
 ===================
-Ingrecipes OFFERS A
+CookIQ OFFERS A
 UNIQUE COMBINATION OF
 FEATURES THAT MAKE
 COOKING EASIER AND
@@ -185,7 +185,7 @@ MORE ENJOYABLE:
     };
 
     const handleCardClick = (recipeId) => {
-        navigate('/Ingrecipes/search');
+        navigate('/CookIQ/search');
     };
 
     return (

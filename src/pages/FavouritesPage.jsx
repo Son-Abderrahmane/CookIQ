@@ -8,7 +8,7 @@ function FavouritesPage() {
     const SetLastPage = UseSearch((state) => state.SetLastPage);
 
     useEffect(() => {
-        SetLastPage("Ingrecipes/favourites");
+        SetLastPage("CookIQ/favourites");
     }, []);
 
     return (
